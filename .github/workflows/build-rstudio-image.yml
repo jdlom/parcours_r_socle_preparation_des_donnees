@@ -5,6 +5,10 @@ on:
     branches:
       - main
       - master
+    paths:
+      - '.github/workflows/build-rstudio-image.yml'
+      - 'Dockerfile'
+      - 'renv.lock'
 jobs:
-  call-workflow:
+  build-rstudio-image:
     uses: jdlom/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
