@@ -1,0 +1,10 @@
+name: Build Rsutio image
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+jobs:
+  call-workflow:
+    uses: jdlom/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
