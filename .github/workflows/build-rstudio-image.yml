@@ -11,4 +11,4 @@ on:
       - 'renv.lock'
 jobs:
   build-rstudio-image:
-    uses: jdlom/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
+    uses: ${{ github.repository_owner }}/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
