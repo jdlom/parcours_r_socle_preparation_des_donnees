@@ -14,5 +14,3 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ github.repository_owner }}"
-  build-rstudio-image:
-    uses: "${{ github.repository_owner }}/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable"
