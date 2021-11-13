@@ -14,4 +14,4 @@ on:
 
 jobs:
   build-rstudio-image:
-    uses: ${{github.repository_owner}}/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
+    uses: jdlom/parcours-r/.github/workflows/build-rstudio-image.yml@workflow_reutilisable
