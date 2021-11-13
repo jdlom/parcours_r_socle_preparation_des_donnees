@@ -1,4 +1,4 @@
-name: Build Rstudio image
+name: Build Rstudio Image
 
 on:
   pull_request:
