@@ -1,4 +1,4 @@
-name: Build Rstudio Image
+name: Build Rstudio Image ${{ github.repository }}
 
 on:
   pull_request:
@@ -6,6 +6,7 @@ on:
       - main
       - master
     paths:
+      -'!**'
       - '.github/workflows/build-rstudio-image.yml'
       - 'Dockerfile'
       - 'renv.lock'
