@@ -1,4 +1,4 @@
-name: Build And deploy bookdown
+name: Déploiement de parcours_r_socle_preparation_des_donnees
 
 on:
   pull_request:
@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy-bookdown:
-    name: Déploiement de ${{ github.repository }}
+    name: Build and deploy bookdown
     uses: jdlom/parcours-r/.github/workflows/build-bookdown.yml@workflow_reutilisable
     with:
       r_version: '4.0.4'
