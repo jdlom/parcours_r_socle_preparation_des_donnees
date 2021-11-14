@@ -1,0 +1,14 @@
+name: Build and deploy bookdown
+
+on:
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  build-and-deploy-bookdown:
+    name: Build and deploy bookdown
+    uses: jdlom/parcours-r/.github/workflows/build-bookdown.yml@workflow_reutilisable
+    with:
+      r_version: '4.0.4'
