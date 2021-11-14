@@ -1,4 +1,4 @@
-name: Build and deploy bookdown
+name: Build And deploy bookdown
 
 on:
   pull_request:
