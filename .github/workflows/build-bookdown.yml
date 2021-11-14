@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-and-deploy-bookdown:
-    name: Build and deploy bookdown
+    name: Déploiement de ${{ github.repository }}
     uses: jdlom/parcours-r/.github/workflows/build-bookdown.yml@workflow_reutilisable
     with:
       r_version: '4.0.4'
